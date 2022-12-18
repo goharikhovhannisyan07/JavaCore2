@@ -15,6 +15,6 @@ public class BoolTest {
         if (b) {
             System.out.println("this is not executed");
         }
-        System.out.println("10 > 9 is " + (10 > 9));
+        System.out.println("10 > 9 is " + (10 < 9));
     }
 }
