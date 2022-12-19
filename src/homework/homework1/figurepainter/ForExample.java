@@ -36,6 +36,8 @@ public class ForExample {
             System.out.println("");
         }
 
+
+
         /*
    3. * * * * *
       * * * *

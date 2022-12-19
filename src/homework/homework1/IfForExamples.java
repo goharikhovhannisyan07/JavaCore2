@@ -1,6 +1,5 @@
 package homework.homework1;
 
-import com.sun.xml.internal.fastinfoset.tools.XML_SAX_StAX_FI;
 
 public class IfForExamples {
     public static void main(String[] args) {
