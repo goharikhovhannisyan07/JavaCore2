@@ -38,12 +38,12 @@ public class IfForExamples {
         /* 4. Գրել կոդ, որը կստուգի եթե a-ն հավասար է b-ին, կտպի` a-ն հավասար է բ-ին,
          եթե ոչ, կտպի որ հավասար չէ` **/
 
-        a = 35;
-        b = -25;
-        if (a > b) {
-            System.out.print("a is greater than b ");
+        a = 25;
+        b = 35;
+        if (a == b) {
+            System.out.print("both are equal ");
         } else {
-            System.out.println("b is greater than a ");
+            System.out.println("both are not equal ");
         }
     }
 

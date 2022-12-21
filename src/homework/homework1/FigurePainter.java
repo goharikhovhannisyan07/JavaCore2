@@ -1,6 +1,6 @@
-package homework.homework1.figurepainter;
+package homework.homework1;
 
-public class ForExample {
+public class FigurePainter {
     public static void main(String[] args) {
         /*
    1.    *
