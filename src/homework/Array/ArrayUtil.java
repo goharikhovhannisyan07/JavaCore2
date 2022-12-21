@@ -22,6 +22,7 @@ public class ArrayUtil {
         System.out.print("max -> " + max);
 
         System.out.println();
+
         //3.Տպեք մասիվի ամենափոքրը թիվը
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
