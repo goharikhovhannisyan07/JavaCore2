@@ -3,7 +3,7 @@ package homework.Array;
 public class ArrayUtil {
     public static void main(String[] args) {
 
-        int[] array = {-2, 5, 8, 10, 32, 22, 11, 66, 12, 300};
+        int[] array = {-2, 5, 8, 10, 32, 22, 77, 66, 12, 300};
         //1.Տպեք մասիվի բոլոր էլեմենտները,
 
         for (int i = 0; i < array.length; i++) {
