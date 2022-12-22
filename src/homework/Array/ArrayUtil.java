@@ -33,6 +33,5 @@ public class ArrayUtil {
         }
         System.out.print("min -> " + min);
 
-
     }
 }
