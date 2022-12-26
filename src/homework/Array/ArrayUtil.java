@@ -7,9 +7,14 @@ public class ArrayUtil {
         //1.Տպեք մասիվի բոլոր էլեմենտները,
 
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + ", ");
+            System.out.print(array[i]);
+            if (i != array.length - 1) {
+                System.out.print(", ");
+
+            }
 
         }
+
         //2.Տպեք մասիվի ամենամեծ թիվը,
         System.out.println();
         int max = array[0];
@@ -35,3 +40,4 @@ public class ArrayUtil {
 
     }
 }
+
