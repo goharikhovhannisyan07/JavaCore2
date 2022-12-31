@@ -1,4 +1,4 @@
-package homework.Array;
+package homework.homework3;
 
 public class ArrayUtil2 {
 
