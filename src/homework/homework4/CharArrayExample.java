@@ -25,7 +25,7 @@ public class CharArrayExample {
 
 //3.պետք է տպենք true եթե մեր մասիվը վերջանում է ly-ով, եթե ոչ՝ false
         char[] chars3 = {'j', 'a', 'v', 'a', 'l', 'o', 'l', 'y' };
-        char x = chars3[chars.length - 2];
+        char x = chars3[chars3.length - 2];
         char y = chars3[chars3.length - 1];
         boolean result = false;
         if (x == 'l' && y == 'y') {
