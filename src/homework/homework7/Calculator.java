@@ -1,6 +1,6 @@
 package homework.homework7;
 
-public class calculator {
+public class Calculator {
 
     double plus(double a, double b) {
         double c = a + b;
