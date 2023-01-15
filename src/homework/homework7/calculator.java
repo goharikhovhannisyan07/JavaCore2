@@ -13,20 +13,20 @@ public class calculator {
     }
 
     double divide(double k, double j) {
-        double z = k / j;
-        return z;
+        if (j == 0) {
+            System.out.println("0-ի չի բաժանվում ");
+            return -1;
+        } else {
+            double z = k / j;
+            return z;
+        }
     }
 
     double multiply(double l, double m) {
         double g = l * m;
-        if (m == 0) {
-            System.out.println("0-ի չի բաժանվում ");
-            return -1;
-        } else {
-            return g;
-        }
-
-
+        return g;
     }
 
 }
+
+
