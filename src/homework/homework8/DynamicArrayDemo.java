@@ -14,10 +14,10 @@ public class DynamicArrayDemo {
         array.add(8);
         array.add(9);
         array.add(10);
-        array.print();
         array.add(11);
         array.print();
-        array.getByIndex(15);
+        array.getByIndex(10);
+        array.print();
 
 
 

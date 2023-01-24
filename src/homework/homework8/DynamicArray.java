@@ -10,7 +10,7 @@ public class DynamicArray {
     //ստուգել եթե մասիվի մեջ տեղ չկա-> կանչել extend()
     //և ավելացնենք
     public void add(int value) {
-        if (size == 10) {
+        if (size == array.length) {
             extend();
         }
         array[size++] = value;
@@ -30,12 +30,11 @@ public class DynamicArray {
     //եթե տրված ինդեքսը մեր ունեցած մասիվի ինդեքսի սահմաններում է, վերադարձնել
     // մասիվի index-երրորդ էլեմենտը։ Հակառակ դեպքում վերադարձնել -1։
     public int getByIndex(int index) {
-        if (index == size || index < 0) {
-            System.out.println(index);
-            return index;
-        } else {
-            System.out.println("հավասար չէ!!!");
+        if (index<0||index>size -1 ) {
+            System.out.println("Սխալ ինդեքս");
             return -1;
+        } else {
+            return index;
         }
     }
 
@@ -45,5 +44,12 @@ public class DynamicArray {
             System.out.print(array[i] + " ");
         }
         System.out.println();
+    }
+
+
+    //ջնջել մասիվի index-երորդ էլեմենտը
+//եթե չկա նման ինդեքսով էլեմենտ, տպել, որ չկա նման էլեմենտ
+    public void deleteByIndex(int index) {
+
     }
 }

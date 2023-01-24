@@ -1,9 +1,9 @@
-package classwork.stack;
+package book.chapter7;
 
 public class Stack {
 
     private int[] array = new int[10];
-   private int tos;
+    private int tos;
 
     Stack() {
         tos = -1;

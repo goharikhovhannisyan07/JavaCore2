@@ -1,4 +1,4 @@
-package classwork.stack;
+package book.chapter7;
 
 public class StackDemo {
     public static void main(String[] args) {
