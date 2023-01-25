@@ -15,10 +15,8 @@ public class DynamicArrayDemo {
         array.add(9);
         array.add(10);
         array.add(11);
+        array.exists(3);
         array.print();
-        array.getByIndex(10);
-        array.print();
-
 
 
     }
